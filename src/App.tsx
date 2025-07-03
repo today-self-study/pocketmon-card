@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import { cards } from './data/cards';
-import Card from './components/Card';
+import { cards } from './data/cards.ts';
+import Card from './components/Card.tsx';
 
 function App() {
   return (
