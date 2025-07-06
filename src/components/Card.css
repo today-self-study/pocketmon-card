@@ -99,22 +99,22 @@
 }
 @keyframes holo-anim {
   0% {
-    filter: brightness(1) hue-rotate(0deg) saturate(1.2) drop-shadow(0 0 8px #fff6);
+    filter: brightness(1);
   }
   20% {
-    filter: brightness(1.1) hue-rotate(30deg) saturate(1.5) drop-shadow(0 0 12px #aef6ff88);
+    filter: brightness(1.08);
   }
   40% {
-    filter: brightness(1.2) hue-rotate(60deg) saturate(1.8) drop-shadow(0 0 16px #f3a6ff88);
+    filter: brightness(1.14);
   }
   60% {
-    filter: brightness(1.1) hue-rotate(90deg) saturate(1.5) drop-shadow(0 0 12px #aef6ff88);
+    filter: brightness(1.18);
   }
   80% {
-    filter: brightness(1) hue-rotate(120deg) saturate(1.2) drop-shadow(0 0 8px #fff6);
+    filter: brightness(1.08);
   }
   100% {
-    filter: brightness(1) hue-rotate(0deg) saturate(1.2) drop-shadow(0 0 8px #fff6);
+    filter: brightness(1);
   }
 }
 .card-holo {
