@@ -116,4 +116,41 @@
   100% {
     filter: brightness(1) hue-rotate(0deg) saturate(1.2) drop-shadow(0 0 8px #fff6);
   }
+}
+.card-holo {
+  pointer-events: none;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  border-radius: 18px;
+  z-index: 3;
+  opacity: 0.55;
+  background: linear-gradient(120deg, #fff6 0%, #aeefff88 30%, #f3a6ff66 60%, #fff6 100%);
+  mix-blend-mode: lighten;
+  overflow: hidden;
+}
+.card-holo::before {
+  content: '';
+  position: absolute;
+  top: -40%; left: -40%; width: 180%; height: 180%;
+  background: repeating-linear-gradient(120deg, #fff8 0 2px, #fff0 2px 16px);
+  opacity: 0.25;
+  pointer-events: none;
+  animation: holo-stripes 2.5s linear infinite;
+}
+.card-holo::after {
+  content: '';
+  position: absolute;
+  left: -60%; top: 0; width: 220%; height: 100%;
+  background: linear-gradient(100deg, #fff0 60%, #fff8 80%, #fff0 100%);
+  opacity: 0.18;
+  pointer-events: none;
+  animation: holo-gloss 3.5s linear infinite;
+}
+@keyframes holo-stripes {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(60px); }
+}
+@keyframes holo-gloss {
+  0% { left: -60%; }
+  100% { left: 100%; }
 } 

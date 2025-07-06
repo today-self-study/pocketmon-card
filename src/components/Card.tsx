@@ -87,6 +87,7 @@ const Card: React.FC<CardProps> = ({ card }) => {
             : `0 0 32px 8px ${typeColor}88, 0 0 0 0 #fff0`,
         }}
       />
+      <div className="card-holo" />
       <img src={card.image} alt={card.name} className="card-image" draggable={false} />
       <div className="card-info">
         <div className="card-header">
