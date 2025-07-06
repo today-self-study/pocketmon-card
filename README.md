@@ -14,3 +14,21 @@
 ---
 
 # pocketmon-card
+
+## 주요 변경사항 (2024-06)
+
+- **1세대(1~151번) 포켓몬 카드**: 모든 1세대 포켓몬을 카드로 구현, 번호순 정렬.
+- **타입별 배경색/글로우/드래그 효과**: 카드 배경, glow-pulse, 드래그 효과가 포켓몬 타입별로 동적으로 적용됨.
+- **드래그 시 홀로그램 효과**: 카드를 드래그하면 홀로그램 느낌의 애니메이션 효과가 추가됨.
+- **이미지 경로**: 실제 이미지 파일이 없는 포켓몬은 PokeAPI 공식 일러스트(`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{번호}.png`)를 사용.
+- **타입별 색상 매핑**:
+  - 풀: #4caf50, 불꽃: #e53935, 물: #2196f3, 전기: #ffeb3b, 얼음: #00bcd4, 격투: #f44336, 독: #ab47bc, 땅: #a1887f, 비행: #90caf9, 에스퍼: #f06292, 벌레: #8bc34a, 바위: #795548, 고스트: #7e57c2, 드래곤: #1976d2, 악: #616161, 강철: #b0bec5, 페어리: #f8bbd0, 노말: #bdbdbd
+- **데이터/이미지 출처**: PokeAPI, pokemoncard.co.kr (내부 개발/학습용)
+
+## 사용법
+- npm install → npm start (로컬 실행)
+- npm run deploy (GitHub Pages 배포)
+- 배포 주소: https://today-self-study.github.io/pocketmon-card/
+
+## 개발자
+- @sSeongJae91

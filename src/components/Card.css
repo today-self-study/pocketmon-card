@@ -17,6 +17,7 @@
 .pokemon-card.dragging {
   box-shadow: 0 8px 32px #ffb30088, 0 1.5px 0 #fff8 inset;
   z-index: 2;
+  animation: holo-anim 1.2s linear infinite;
 }
 .card-image {
   width: 120px;
@@ -95,4 +96,24 @@
 @keyframes sparkle {
   0% { background-position: 0 0, 0 0; }
   100% { background-position: 20px 20px, -20px -20px; }
+}
+@keyframes holo-anim {
+  0% {
+    filter: brightness(1) hue-rotate(0deg) saturate(1.2) drop-shadow(0 0 8px #fff6);
+  }
+  20% {
+    filter: brightness(1.1) hue-rotate(30deg) saturate(1.5) drop-shadow(0 0 12px #aef6ff88);
+  }
+  40% {
+    filter: brightness(1.2) hue-rotate(60deg) saturate(1.8) drop-shadow(0 0 16px #f3a6ff88);
+  }
+  60% {
+    filter: brightness(1.1) hue-rotate(90deg) saturate(1.5) drop-shadow(0 0 12px #aef6ff88);
+  }
+  80% {
+    filter: brightness(1) hue-rotate(120deg) saturate(1.2) drop-shadow(0 0 8px #fff6);
+  }
+  100% {
+    filter: brightness(1) hue-rotate(0deg) saturate(1.2) drop-shadow(0 0 8px #fff6);
+  }
 } 
