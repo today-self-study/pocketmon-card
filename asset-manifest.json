@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pocketmon-card/static/css/main.955fc46b.css",
-    "main.js": "/pocketmon-card/static/js/main.79d43a8a.js",
+    "main.css": "/pocketmon-card/static/css/main.5ca6a46a.css",
+    "main.js": "/pocketmon-card/static/js/main.4b02601e.js",
     "static/js/584.384f3d9f.chunk.js": "/pocketmon-card/static/js/584.384f3d9f.chunk.js",
     "service-worker.js": "/pocketmon-card/service-worker.js",
     "index.html": "/pocketmon-card/index.html",
-    "main.955fc46b.css.map": "/pocketmon-card/static/css/main.955fc46b.css.map",
-    "main.79d43a8a.js.map": "/pocketmon-card/static/js/main.79d43a8a.js.map",
+    "main.5ca6a46a.css.map": "/pocketmon-card/static/css/main.5ca6a46a.css.map",
+    "main.4b02601e.js.map": "/pocketmon-card/static/js/main.4b02601e.js.map",
     "584.384f3d9f.chunk.js.map": "/pocketmon-card/static/js/584.384f3d9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.955fc46b.css",
-    "static/js/main.79d43a8a.js"
+    "static/css/main.5ca6a46a.css",
+    "static/js/main.4b02601e.js"
   ]
 }
